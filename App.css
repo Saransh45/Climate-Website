@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.hdqwalls.com/wallpapers/clouds-summer-weather-5k-1b.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    background: url('https://thumbs.dreamstime.com/b/calm-nice-weather-sunny-day-sea-ocean-there-few-clouds-can-be-seen-very-far-198602323.jpg');
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.climate {
+    color: rgb(6, 67, 180);
+}
+
+.climateinfo {
+    color: whitesmoke;
+}
+
+.climateinfo h2 {
+    color: rgba(3, 6, 102, 0.756);
+}
+
+#btn {
+    background-color: hsla(175, 55%, 83%, 0.24);
+}
+
+#btn:hover {
+    color: magenta;
+}
+
+input {
+    color: black;
+}
+
+.error{
+    color: red;
+}
+
+
+
